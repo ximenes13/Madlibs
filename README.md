@@ -27,6 +27,8 @@ This project is a **MadLib-style random story generator** written in Python, usi
 - **madlib.json**: Contains the MadLib templates and corresponding placeholders (e.g., `{{adjective}}`, `{{noun}}`, etc.) that will be filled in by the user. Each story template is represented as an object with a `template` and `filled` key.
 - **main.py**: The main Python script for generating MadLibs. It loads the JSON file, prompts the user for input to fill in the placeholders, and displays the final story. If configured with Selenium, it can also automatically submit the story via a web form.
 
+---
+
 ## 🛠️ Setup
 
 ### Step 1: Clone the Repository
@@ -51,7 +53,7 @@ To interact with the web using Selenium, you'll need a WebDriver for your browse
 
 Once you've installed the dependencies and set up the WebDriver, you can run the main Python script to generate and interact with MadLibs.
   `python main.py`
-
+  
 ---
 
 ## 🤝 Contributing
@@ -64,7 +66,7 @@ Contributions are welcome! If you'd like to improve the project, feel free to:
 4. Push to your branch (`git push origin feature-name`).
 5. Submit a pull request.
 
-If you find bugs or have feature requests, please [open an issue](https://github.com/your-username/madlib-project/issues).
+If you find bugs or have feature requests, please [open an issue]([https://github.com/your-username/madlib-project/issues](https://github.com/ximenes13/Madlibs/issues).
 
 
 
