@@ -1,0 +1,31 @@
+{
+  "templates": [
+    "Today, I saw {adjective} {noun} trying to {verb} at the park.",
+    "In the future, {noun}s will {verb} all over the {adjective} cities.",
+    "My best friend is a {adjective} {noun} who loves to {verb} on weekends."
+  ],
+
+  "values": {
+    "adjectives": [
+      "fuzzy",
+      "gigantic",
+      "creepy",
+      "sassy",
+      "blue"
+    ],
+    "nouns": [
+      "dragon",
+      "teacher",
+      "banana",
+      "robot",
+      "pirate"
+    ],
+    "verbs": [
+      "dance",
+      "sing",
+      "scream",
+      "teleport",
+      "cook"
+    ]
+  }
+}
