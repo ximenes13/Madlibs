@@ -28,9 +28,9 @@ This project is a web-based MadLib-style random story generator built using `Pyt
 
 - **madlib.json**: Contains the MadLib templates and corresponding placeholders (e.g., `{{adjective}}`, `{{noun}}`, etc.) that will be filled in by the user. Each story template is represented as an object with a `templates` and `values` key.
 - **main.py**: The main Python script for the Flask application. It loads the madlib.json file, serves the web pages (via Flask routes), collects user inputs via forms, and renders the final generated MadLib on a results page.
-- **index.html: Focused on a button to generate a MadLib story.
-- **style.css: Custom CSS for styling the webpage. This file will handle the look and feel of the input form, the results page, and overall design.
-- **script.js: Handles the dynamic creation of input fields based on the `.json` and generate a story.
+- **index.html**: Focused on a button to generate a MadLib story.
+- **style.css**: Custom CSS for styling the webpage. This file will handle the look and feel of the input form, the results page, and overall design.
+- **script.js**: Handles the dynamic creation of input fields based on the `.json` and generate a story.
 
 ---
 
