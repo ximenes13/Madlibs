@@ -1,31 +1,36 @@
 # 🧠 MadLib Generator with Python + Selenium
 
-This project is a **MadLib-style random story generator** written in Python, using `Selenium` to optionally **fill in a web form** with generated stories. Words are loaded from a structured `.json` file, and stories are assembled dynamically using templates.
+This project is a web-based MadLib-style random story generator built using `Python` and `Flask`, with `HTML/CSS` for the frontend and `JSON` as the data source. Users can dynamically fill in the blanks to generate fun, custom stories — all within a browser interface.
 
 ---
 
 ## 🚀 Features
 
-- 🎲 Generates random, funny stories from templates
-- 📁 Reads words and templates from an external `JSON` file
-- 🌐 Uses `Selenium` to automatically interact with webpages (e.g. fill out forms)
-- 🛠️ Easily customizable: add your own templates or words
+🎲 Generates funny and dynamic stories using JSON-based templates
+📁 Reads placeholders and templates from external `.json` file
+🌐 Interactive form inputs built with HTML and styled using CSS
+🛠️ Easily customizable — just add new templates or words in the JSON file
+⚡ Runs locally in your browser using Flask
 
 ---
 
 ## 🖥️ Technologies Used
 
 - Python 3.x
-- Selenium WebDriver
+- Flask
+- HTML5 / CSS3
 - JSON for structured input
-- (Optional) ChromeDriver or another browser driver for automation
+- PyCharm (recommended IDE)
 
 ---
 
 ## 📂 Project Structure
 
-- **madlib.json**: Contains the MadLib templates and corresponding placeholders (e.g., `{{adjective}}`, `{{noun}}`, etc.) that will be filled in by the user. Each story template is represented as an object with a `template` and `filled` key.
-- **main.py**: The main Python script for generating MadLibs. It loads the JSON file, prompts the user for input to fill in the placeholders, and displays the final story. If configured with Selenium, it can also automatically submit the story via a web form.
+- **madlib.json**: Contains the MadLib templates and corresponding placeholders (e.g., `{{adjective}}`, `{{noun}}`, etc.) that will be filled in by the user. Each story template is represented as an object with a `templates` and `values` key.
+- **main.py**: The main Python script for the Flask application. It loads the madlib.json file, serves the web pages (via Flask routes), collects user inputs via forms, and renders the final generated MadLib on a results page.
+- **index.html: Focused on a button to generate a MadLib story.
+- **style.css: Custom CSS for styling the webpage. This file will handle the look and feel of the input form, the results page, and overall design.
+- **script.js: Handles the dynamic creation of input fields based on the `.json` and generate a story.
 
 ---
 
@@ -43,7 +48,7 @@ Make sure you have Python 3.x installed. You can check your version with:
   `python --version`
 
 Install selenium with:
- `pip install selenium`
+ `pip install flask`
 
 ### Step 3: Install WebDriver
 
@@ -52,7 +57,7 @@ To interact with the web using Selenium, you'll need a WebDriver for your browse
 ### Step 4:Run the project
 
 Once you've installed the dependencies and set up the WebDriver, you can run the main Python script to generate and interact with MadLibs.
-  `python main.py`
+  `python3 main.py`
   
 ---
 
