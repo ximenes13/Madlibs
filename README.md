@@ -40,7 +40,7 @@ This project is a web-based MadLib-style random story generator built using `Pyt
 
 To get started, clone this repository to your local machine using the following command:
 
-  `git clone https://github.com/your-username/madlib-project.git`
+  `git clone https://github.com/your-username/Madlibs.git`
 
 ### Step 2: Dependencies
 
