@@ -1,4 +1,4 @@
-# 🧠 MadLib Generator with Python + Selenium
+# 🧠 MadLib Generator with Python + Flask
 
 This project is a web-based MadLib-style random story generator built using `Python` and `Flask`, with `HTML/CSS` for the frontend and `JSON` as the data source. Users can dynamically fill in the blanks to generate fun, custom stories — all within a browser interface.
 
@@ -47,14 +47,10 @@ To get started, clone this repository to your local machine using the following 
 Make sure you have Python 3.x installed. You can check your version with:
   `python --version`
 
-Install selenium with:
+Install flask with:
  `pip install flask`
 
-### Step 3: Install WebDriver
-
-To interact with the web using Selenium, you'll need a WebDriver for your browser (e.g., ChromeDriver or GeckoDriver). Download the appropriate version for your browser.
-
-### Step 4: Run the project
+### Step 3: Run the project
 
 Once you've installed the dependencies and set up the WebDriver, you can run the main Python script to generate and interact with MadLibs.
   `python3 main.py`
