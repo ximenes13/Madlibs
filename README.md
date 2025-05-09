@@ -6,10 +6,10 @@ This project is a web-based MadLib-style random story generator built using `Pyt
 
 ## 🚀 Features
 
-🎲 Generates funny and dynamic stories using JSON-based templates
-📁 Reads placeholders and templates from external `.json` file
-🌐 Interactive form inputs built with HTML and styled using CSS
-🛠️ Easily customizable — just add new templates or words in the JSON file
+🎲 Generates funny and dynamic stories using JSON-based templates <br>
+📁 Reads placeholders and templates from external `.json` file <br>
+🌐 Interactive form inputs built with HTML and styled using CSS <br>
+🛠️ Easily customizable — just add new templates or words in the JSON file <br>
 ⚡ Runs locally in your browser using Flask
 
 ---
